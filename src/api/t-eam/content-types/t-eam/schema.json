@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "t_eams",
+  "info": {
+    "singularName": "t-eam",
+    "pluralName": "t-eams",
+    "displayName": "TeamAndCaptain"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "teamName": {
+      "type": "string",
+      "required": true
+    },
+    "captainName": {
+      "type": "string",
+      "required": true
+    },
+    "captainImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}
